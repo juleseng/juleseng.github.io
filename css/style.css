@@ -49,7 +49,7 @@ h3 {
   }
 
   a:link {
-    color: red;
+    color:#c0731a;
   }
   
   /* visited link */
@@ -59,10 +59,17 @@ h3 {
   
   /* mouse over link */
   a:hover {
-    color:#762710
+    color:#401509
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: #cf694c;
+  }
+
+  #pot {
+    width:350px;
+    margin-left: 25%;
+    margin-top:15px;
+    border-radius: 50%;
   }
