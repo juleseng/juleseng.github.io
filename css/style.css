@@ -1,12 +1,68 @@
+body {
+    background-color: #FFF9F6;
+}
+
+#main {
+    font-size: 100px;
+}
+
+#main-2 {
+    font-size:40px;
+}
+
+#nav {
+    /* margin-left:20px;
+    margin-top:40px; */
+    text-align: center;
+}
+
 #content {
     margin: auto;
     width: 75%;
 }
 
-h1 {
+h1, #nav, #main-2 {
     font-family: "Avenir"
 }
 
-#para-content {
-    font-family: "Avenir Next"
+h3 {
+    font-size: 40px
 }
+
+#para-content {
+    font-family: "Avenir Next";
+    font-size:25px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+
+/* deals with links */
+  a {
+    text-decoration: none;
+  }
+
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:#EC4E20;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:#762710
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
