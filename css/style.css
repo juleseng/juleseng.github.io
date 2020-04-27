@@ -3,11 +3,12 @@ body {
 }
 
 #main {
-    font-size: 100px;
+    font-size: 60px;
 }
 
 #main-2 {
-    font-size:40px;
+    font-size:22px;
+    padding-left:10%;
 }
 
 #nav {
@@ -91,9 +92,14 @@ h3 {
   }
 
   #pot {
-    width:70%;
-    margin-left: 20%;
-    margin-top:15px;
-    border-radius: 100%;
+    width:90%;
+    margin-top:10%;
+    /* border-radius: 100%; */
     box-shadow: 5px 5px #cf694c;
+  }
+
+  .row-intro {
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
