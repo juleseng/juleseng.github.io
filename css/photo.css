@@ -1,6 +1,18 @@
+/* made mirage */
+@font-face { font-family: MADE Mirage; src: url('../font/MADE-Mirage-Reg.otf'); } 
+@font-face { font-family: MADE Mirage; font-weight: bold; src: url('../font/MADE-Mirage-Bold.otf');}
+@font-face { font-family: MADE Mirage Med; font-weight: bold; src: url('../font/MADE-Mirage-Med.otf');}
+
+@font-face { font-family: Neutra; src: url('../font/NeutraText-Book.otf'); } 
+@font-face { font-family: Neutra; font-weight: italic; src: url('../font/NeutraText-Book.otf');}
+@font-face { font-family: Neutra; font-weight: bold; src: url('../font/NeutraText-Bold.otf');}
+@font-face { font-family: Recoleta; src: url('../font/Recoleta-RegularDEMO.otf');}
+@font-face { font-family: Serif-Gothic; src: url('../font/SerifGothicStd.otf');}
+@font-face { font-family: Souvenier; src: url('../font/souvenir.ttf');}
+
 body {
-    background-color: #FFF9F6;
-    font-family: "Avenir Next"
+    background-color: #F3BBBC;
+    font-family: "Neutra";
 }
 
 #main {
@@ -23,15 +35,16 @@ body {
 }
 
 h1, #nav, #main-2, h6 {
-    font-family: "Avenir"
+    font-family: "Neutra"
 }
 
 h3 {
-    font-size: 40px
+    font-size: 40px;
+    font-family: "Recoleta"
 }
 
 #para-content {
-    font-family: "Avenir Next";
+    font-family: "Neutra";
     font-size:25px;
 }
 
@@ -91,12 +104,11 @@ h3 {
   }
 
   a:link {
-    color:#c0731a;
+    color:#FE0200;
   }
-  
-  /* visited link */
+   /* visited link */
   a:visited {
-    color:#EC4E20;
+    color:#FE0200;
   }
   
   /* mouse over link */

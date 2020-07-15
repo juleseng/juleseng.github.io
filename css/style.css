@@ -1,5 +1,16 @@
+/* made mirage */
+@font-face { font-family: MADE Mirage; src: url('../font/MADE-Mirage-Reg.otf'); } 
+@font-face { font-family: MADE Mirage; font-weight: bold; src: url('../font/MADE-Mirage-Bold.otf');}
+@font-face { font-family: MADE Mirage Med; font-weight: bold; src: url('../font/MADE-Mirage-Med.otf');}
+@font-face { font-family: Neutra; src: url('../font/NeutraText-Book.otf'); } 
+@font-face { font-family: Neutra; font-weight: italic; src: url('../font/NeutraText-Book.otf');}
+@font-face { font-family: Neutra; font-weight: bold; src: url('../font/NeutraText-Bold.otf');}
+@font-face { font-family: Recoleta; src: url('../font/Recoleta-RegularDEMO.otf');}
+@font-face { font-family: Serif-Gothic; src: url('../font/SerifGothicStd.otf');}
+@font-face { font-family: Souvenier; src: url('../font/souvenir.ttf');}
+
 body {
-    background-color: #FFF9F6;
+    background-color:#F3BBBC;
 }
 
 #main {
@@ -7,7 +18,7 @@ body {
 }
 
 #main-2 {
-    font-size:22px;
+    font-size:26px;
     padding-left:10%;
 }
 
@@ -22,17 +33,18 @@ body {
     width: 75%;
 }
 
-h1, #nav, #main-2 {
-    font-family: "Avenir"
+h1, h4, #nav, #main-2 {
+    font-family: "Neutra"
 }
 
 h3 {
-    font-size: 40px
+    font-size: 40px;
+    font-family: "Recoleta";
 }
 
 #para-content {
-    font-family: "Avenir Next";
-    font-size:25px;
+    font-family: "Neutra";
+    font-size:20px;
 }
 
 .project {
@@ -73,23 +85,19 @@ h3 {
   }
 
   a:link {
-    color:#c0731a;
+    color:#FE0200;
   }
   
   /* visited link */
   a:visited {
-    color:#EC4E20;
+    color:#FE0200;
   }
   
   /* mouse over link */
   a:hover {
-    color:#b34d30
+    color:#401509
   }
   
-  /* selected link */
-  a:active {
-    color: #cf694c;
-  }
 
   #pot {
     width:90%;
@@ -103,3 +111,42 @@ h3 {
     /* align-items: center; */
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
+
+  .bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+    }
+    @keyframes bouncy {
+      0%{top:0em}
+      40%{top:0em}
+      43%{top:-0.9em}
+      46%{top:0em}
+      48%{top:-0.4em}
+      50%{top:0em}
+      100%{top:0em;}
+    }
+
+  a.button-class {
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.6em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Neutra',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#FE0200;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+    }
+    a.button-class:active{
+      top:0.1em;
+    }
+    @media all and (max-width:30em){
+     a.button6{
+      display:block;
+      margin:0.4em auto;
+     }
+    }
