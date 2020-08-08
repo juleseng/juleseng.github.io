@@ -1,52 +1,131 @@
 /* made mirage */
-@font-face { font-family: MADE Mirage; src: url('../font/MADE-Mirage-Reg.otf'); } 
-@font-face { font-family: MADE Mirage; font-weight: bold; src: url('../font/MADE-Mirage-Bold.otf');}
-@font-face { font-family: MADE Mirage Med; font-weight: bold; src: url('../font/MADE-Mirage-Med.otf');}
-@font-face { font-family: Neutra; src: url('../font/NeutraText-Book.otf'); } 
-@font-face { font-family: Neutra; font-weight: italic; src: url('../font/NeutraText-Book.otf');}
-@font-face { font-family: Neutra; font-weight: bold; src: url('../font/NeutraText-Bold.otf');}
-@font-face { font-family: Recoleta; src: url('../font/Recoleta-RegularDEMO.otf');}
-@font-face { font-family: Serif-Gothic; src: url('../font/SerifGothicStd.otf');}
-@font-face { font-family: Souvenier; src: url('../font/souvenir.ttf');}
+@font-face { font-family: CallingCode; src: url('../font/CallingCode-Regular.ttf'); }
+@font-face { font-family: EBGaramond; src: url('../font/EBGaramond12-Regular.otf'); }
+
 
 body {
-    background-color:#F3BBBC;
-    color: #3a0000;
+    background-color: #AFC2E3;
+    color: #AFC2E3;
 }
+
 
 #main {
     font-size: 60px;
-    color:#FE0200;
+    color:#191970;
 }
 
 #main-2 {
     font-size:26px;
-    padding-left:10%;
-    color: #FE0200
+    color: #191970;
 }
 
-#nav {
-    /* margin-left:20px;
-    margin-top:40px; */
-    text-align: center;
+.column-intro {
+  padding-left:10%;
+  padding-bottom: 10%;
 }
+
+.imgjules {
+  display: block;
+  margin-left: 70px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 70%;
+  border: 7px solid #191970;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* nav things */
+
+.navwrapper {
+  display: block;
+  background-color: none;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+
+}
+
+.navbar {
+  display: block;
+  background-color: none;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  text-decoration-color: #ffaa00;
+  color: #ffaa00;
+}
+
+.navbar a.active {
+  background-color: #ff6600;
+  color: #ff6600;
+}
+
+.nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navsocial {
+  display: block;
+  background-color: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.navsocial li {
+    float: right;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navsocial a:hover {
+    text-decoration-color: #ffaa00;
+    color: #ffaa00;
+  }
+
+  /* Add a color to the active/current link */
+  .navsocial a.active {
+    background-color: #ff6600;
+    color: #ff6600;
+  }
 
 #content {
     margin: auto;
-    width: 75%;
+    width: 90%;
 }
 
-h1, h4, #nav, #main-2 {
-    font-family: "Neutra"
+
+h1, h4, #nav, #main-2, #column-shortstories {
+    font-family: "EBGaramond"
 }
 
 h3 {
     font-size: 40px;
-    font-family: "Recoleta";
+    font-family: "CallingCode";
+}
+
+a {
+    font-family: "CallingCode";
+    font-size: 30px;
 }
 
 #para-content {
-    font-family: "Neutra";
+    font-family: "EBGaramond";
     font-size:20px;
 }
 
@@ -61,7 +140,7 @@ h3 {
 .project:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .projfont {
@@ -72,7 +151,7 @@ h3 {
 .row {
     display: flex;
   }
-  
+
 .column {
   flex: 50%;
 }
@@ -82,31 +161,122 @@ h3 {
   height: 40%
 }
 
+.mediaimages {
+      /* display: block;
+      margin-left: 50px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      width: 70%; */
+      border: 7px solid #191970;
+      /* padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px; */
+      width:370px;
+}
+
+.artimages {
+      /* display: block;
+      margin-left: 50px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      width: 70%; */
+      border: 7px solid #191970;
+      /* padding-right: 5px;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px; */
+      width:370px;
+}
+
+.full_art {
+  border: 7px solid #191970;
+  width:70%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.moon-format-odd {
+  float: left;
+  border: 7px solid #191970;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50%;
+  height: 50%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.moon-format-even {
+
+  float: right;
+  border: 7px solid #191970;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 50%;
+  height: 50%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+/* for the buffer zones in writing */
+
+.shorts{
+  text-align: left;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+    .shortstories {
+      font-size:26px;
+      color: #191970;
+    }
+
+  .poems_highlight a:hover{
+    text-decoration-color: #ffaa00;
+    color: #ffaa00;
+  }
+
+
 /* deals with links */
   a {
     text-decoration: none;
   }
 
   a:link {
-    color:#cb0100;
+    color:#191970;
   }
-  
+
   /* visited link */
   a:visited {
-    color:#cb0100;
+    color:#191970;
   }
-  
+
   /* mouse over link */
   a:hover {
-    color:#650000
+    color:#191970
   }
-  
+
 
   #pot {
     width:90%;
     margin-top:10%;
     /* border-radius: 100%; */
-    box-shadow: 5px 5px #cf694c;
   }
 
   .row-intro {
@@ -139,7 +309,7 @@ h3 {
     font-family:'Neutra',sans-serif;
     font-weight:100;
     color:#FFFFFF;
-    background-color:#650000;
+    background-color:#191970;
     box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
     text-align:center;
     position:relative;
@@ -152,4 +322,26 @@ h3 {
       display:block;
       margin:0.4em auto;
      }
-    }
+/* this is for the buffer for short stories */
+
+
+
+    /*for the columns in writing */
+
+
+
+/*
+  .bopbop img{
+      display: block;
+      width: 10%;
+      text-align: center;
+      float: left;
+    } */
+
+    /* .clear {
+      clear: both;
+      height: 0;
+      width: 0;
+      font-size: 1px;
+      line-height: 0;
+    } */
