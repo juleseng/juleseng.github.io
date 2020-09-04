@@ -19,6 +19,11 @@ body {
     color: #191970;
 }
 
+#main-3 {
+    font-size:26px;
+    color: #191970;
+}
+
 .column-intro {
   padding-left:10%;
   padding-bottom: 10%;
@@ -122,6 +127,12 @@ h3 {
 a {
     font-family: "CallingCode";
     font-size: 30px;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: "CallingCode";
+    color:#191970;
 }
 
 #para-content {
