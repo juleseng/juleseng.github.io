@@ -248,6 +248,11 @@ h5 {
   margin-bottom: 10%;
 }
 
+.link a:hover{
+  text-decoration-color: #ffaa00;
+  color: #ffaa00;
+}
+
 
 
 /* for the buffer zones in writing */
