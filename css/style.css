@@ -1,37 +1,43 @@
 /* made mirage */
 @font-face { font-family: CallingCode; src: url('../font/CallingCode-Regular.ttf'); }
 @font-face { font-family: EBGaramond; src: url('../font/EBGaramond12-Regular.otf'); }
+@font-face { font-family: PlasticBeach; src: url('../font/PlasticBeach.ttf'); }
+@font-face { font-family: RochesterTwee; src: url('../font/RochesterTwee.ttf'); }
+@font-face { font-family: GOODPEOPLE; src: url('../font/GOODPEOPLE.otf'); }
+
 
 
 body {
-    background-color: #AFC2E3;
-    color: #AFC2E3;
+    background-color: #DBE19C;
+    color: #DBE19C;
 }
 
 
 #main {
-    font-size: 60px;
-    color:#191970;
+    font-size: 65px;
+    color:#3D2764;
+    margin-bottom: 75px;
 }
 
 #main-2 {
-    font-size:26px;
-    color: #191970;
+    font-size:20px;
+    color: #3D2764;
 }
 
 #main-3 {
     font-size:26px;
-    color: #191970;
+    color: #3D2764;
 }
 
 #main-4{
     font-size:18px;
-    color: #191970;
+    color: #3D2764;
 }
 
 .column-intro {
   padding-left:10%;
-  padding-bottom: 10%;
+  padding-top: 0%;
+  padding-bottom: 15%;
 }
 
 .imgjules {
@@ -40,7 +46,8 @@ body {
   margin-top: 150px;
   margin-bottom: 50px;
   width: 70%;
-  border: 7px solid #191970;
+  border-radius: 300px;
+  border: 7px solid #3D2764;
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 10px;
@@ -121,7 +128,7 @@ body {
 
 
 h1, h4, #nav, #main-2, #column-shortstories {
-    font-family: "EBGaramond"
+    font-family: "CallingCode"
 }
 
 h3 {
@@ -130,18 +137,22 @@ h3 {
 }
 
 a {
-    font-family: "CallingCode";
+    font-family: "GOODPEOPLE";
     font-size: 30px;
 }
 
-h5 {
+h5, #main4{
     font-size: 30px;
-    font-family: "CallingCode";
-    color:#191970;
+    font-family: "RochesterTwee";
+    color:#3D2764;
 }
 
-#para-content {
-    font-family: "EBGaramond";
+h6 {
+  font-family: "GOODPEOPLE";
+}
+
+p {
+    font-family: "CallingCode";
     font-size:20px;
 }
 
@@ -183,7 +194,7 @@ h5 {
       margin-top: 100px;
       margin-bottom: 50px;
       width: 70%; */
-      border: 7px solid #191970;
+      border: 7px solid #3D2764;
       /* padding-right: 10px;
       padding-left: 10px;
       padding-top: 10px;
@@ -197,7 +208,8 @@ h5 {
       margin-top: 100px;
       margin-bottom: 50px;
       width: 70%; */
-      border: 7px solid #191970;
+      border-radius: 300px;
+      border: 7px solid #3D2764;
       /* padding-right: 5px;
       padding-left: 5px;
       padding-top: 5px;
@@ -205,8 +217,14 @@ h5 {
       width:370px;
 }
 
+.projectimages {
+  border-radius: 200px;
+  border: 7px solid #3D2764;
+  width:370px;
+}
+
 .full_art {
-  border: 7px solid #191970;
+  border: 7px solid #3D2764;
   width:70%;
   margin-top: 25px;
   margin-bottom: 50px;
@@ -214,38 +232,6 @@ h5 {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-
-.moon-format-odd {
-  float: left;
-  border: 7px solid #191970;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 50%;
-  height: 50%;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-.moon-format-even {
-
-  float: right;
-  border: 7px solid #191970;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 50%;
-  height: 50%;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 .link a:hover{
@@ -265,7 +251,7 @@ h5 {
 
     .shortstories {
       font-size:26px;
-      color: #191970;
+      color: #3D2764;
     }
 
   .poems_highlight a:hover{
@@ -280,17 +266,17 @@ h5 {
   }
 
   a:link {
-    color:#191970;
+    color:#3D2764;
   }
 
   /* visited link */
   a:visited {
-    color:#191970;
+    color:#3D2764;
   }
 
   /* mouse over link */
   a:hover {
-    color:#191970
+    color:#3D2764
   }
 
 
@@ -302,6 +288,7 @@ h5 {
 
   .row-intro {
     display: grid;
+    padding: inherit;
     /* align-items: center; */
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
