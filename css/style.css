@@ -4,12 +4,13 @@
 @font-face { font-family: PlasticBeach; src: url('../font/PlasticBeach.ttf'); }
 @font-face { font-family: RochesterTwee; src: url('../font/RochesterTwee.ttf'); }
 @font-face { font-family: GOODPEOPLE; src: url('../font/GOODPEOPLE.otf'); }
-
-
+@font-face { font-family: Walby-Regular; src: url('../font/Walby-Regular.ttf'); }
+@font-face { font-family: Magilio; src: url('../font/Magilio.ttf'); }
+@font-face { font-family: Sernes-Light; src: url('../font/Sernes-Light.otf'); }
 
 body {
-    background-color: #DBE19C;
-    color: #DBE19C;
+    background-color: #FDFFF5;
+    color: #FDFFF5;
 }
 
 
@@ -128,31 +129,31 @@ body {
 
 
 h1, h4, #nav, #main-2, #column-shortstories {
-    font-family: "CallingCode"
+    font-family: "Walby-Regular"
 }
 
 h3 {
     font-size: 40px;
-    font-family: "CallingCode";
+    font-family: "Walby-Regular";
 }
 
 a {
-    font-family: "GOODPEOPLE";
+    font-family: "Magilio";
     font-size: 30px;
 }
 
 h5, #main4{
     font-size: 30px;
-    font-family: "RochesterTwee";
+    font-family: "Sernes-Light";
     color:#3D2764;
 }
 
 h6 {
-  font-family: "GOODPEOPLE";
+  font-family: "Magilio";
 }
 
 p {
-    font-family: "CallingCode";
+    font-family: "Walby-Regular";
     font-size:20px;
 }
 
